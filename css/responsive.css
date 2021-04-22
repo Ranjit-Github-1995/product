@@ -50,3 +50,11 @@
         overflow-x: hidden !important;
     }
 }
+
+@media (min-width: 992px) and (max-width: 1721px){
+    
+    .popup_sec{
+        width: 65%;
+        padding: 50px 50px;
+    }
+}

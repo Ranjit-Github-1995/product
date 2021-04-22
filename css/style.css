@@ -181,13 +181,25 @@ h1,h2,h3,h4,h5,h6,p{
 
 .popup_sec{
     overflow: hidden;
-    padding: 50px 20px;
+    padding: 50px 50px;
     height: auto;
-    width: 70%;
+    width: 45%;
     /*background-color: aquamarine;*/
 }
 .popup_sec .left_sec{
     overflow: hidden;
+}
+.popup_sec .left_sec h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #111;
+    font-weight: 700;
+}
+.popup_sec .left_sec p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 10px 0;
 }
 .popup_sec .left_sec ul li{
     padding-bottom: 7px;
@@ -200,6 +212,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .popup_sec .right_sec{
     overflow: hidden;
+    padding: 50px 0 0;
 }
 .popup_sec .right_sec ul li {
 	width: 100%;
